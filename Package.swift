@@ -13,8 +13,8 @@ let package = Package(
         .library(name: "Runestone", targets: ["Runestone"])
     ],
     targets: [
-        .target(name: "Runestone", dependencies: ["TreeSitter"]),
-        .target(name: "TreeSitter",
+        .target(name: "Runestone", dependencies: ["tree-sitter"]),
+        .target(name: "tree-sitter",
                 path: "tree-sitter/lib",
                 exclude: [
                     "binding_rust",
