@@ -1,4 +1,4 @@
-import TreeSitter
+import tree_sitter
 
 final class TreeSitterTextRange {
     let rawValue: TSRange

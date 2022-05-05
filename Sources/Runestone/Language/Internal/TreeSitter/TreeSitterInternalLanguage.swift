@@ -1,4 +1,4 @@
-import TreeSitter
+import tree_sitter
 
 final class TreeSitterInternalLanguage {
     let languagePointer: UnsafePointer<TSLanguage>

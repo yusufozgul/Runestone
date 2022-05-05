@@ -1,4 +1,4 @@
-import TreeSitter
+import tree_sitter
 
 final class TreeSitterQueryCursor {
     private let pointer: OpaquePointer

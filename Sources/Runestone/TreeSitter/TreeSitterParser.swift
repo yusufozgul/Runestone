@@ -1,5 +1,5 @@
 import Foundation
-import TreeSitter
+import tree_sitter
 
 protocol TreeSitterParserDelegate: AnyObject {
     func parser(_ parser: TreeSitterParser, bytesAt byteIndex: ByteCount) -> TreeSitterTextProviderResult?

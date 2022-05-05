@@ -1,6 +1,6 @@
 @testable import Runestone
 import TestTreeSitterLanguages
-import TreeSitter
+import tree_sitter
 import XCTest
 
 final class TreeSitterParserTests: XCTestCase {

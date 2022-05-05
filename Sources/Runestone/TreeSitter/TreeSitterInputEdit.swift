@@ -1,4 +1,4 @@
-import TreeSitter
+import tree_sitter
 
 final class TreeSitterInputEdit {
     let startByte: ByteCount

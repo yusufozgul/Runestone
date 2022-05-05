@@ -1,4 +1,4 @@
-import TreeSitter
+import tree_sitter
 
 enum TreeSitterQueryError: Error {
     case syntax(offset: UInt32)
